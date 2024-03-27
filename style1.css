@@ -1,0 +1,206 @@
+.header {
+  position: relative;
+  background-color: black; 
+  padding: 10px 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+.header img {
+  height: 40px; 
+  margin-right: 20px;
+}
+
+.header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative; 
+  z-index: 1; 
+}
+
+.header ul li {
+  display: inline-block;
+  margin-right: 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase; 
+  padding: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+.header ul li:hover {
+  background-color: #333; 
+}
+
+.header ul li:hover {
+  text-decoration: underline;
+}
+
+.hello {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.product1 {
+  flex: 1;
+  margin-top: 5px;
+  margin-left: 4%;
+}
+
+.product {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; 
+}
+
+.product img {
+  max-width: 600px; 
+  width: 600%; 
+  height: auto;
+  margin-top: 20px;
+  margin-right: 2.5%;
+  border-radius: 5%;
+  box-shadow: 0 8px 16px rgba(82, 82, 82, 0.1);
+}
+
+.product1 h1 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.product1 p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #565555;
+  text-align: justify;
+}
+.get {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+}
+.get h1 {
+  font-size: 40px;
+  margin-top: 10px;
+  padding-top: 5%;
+}
+.get p {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  color: #9a9a9a;
+  text-align: justify;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 5%;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+  flex-direction: row;
+}
+.Image {
+  width: 40%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+.overlay {
+  width: 30%;
+  margin-bottom: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.overlay h1 {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.overlay p {
+  text-align: justify;
+  width: 400px;
+  line-height: 1.5em;
+}
+
+.overlay-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.overlay {
+  position: relative;
+}
+
+.overlay h1 {
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+.overlay p {
+  margin-bottom: 10px;
+  vertical-align: top;
+}
+
+.ourservices {
+  padding-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1em;
+  background-color: rgba(41, 40, 40, 0.8); /* Added opacity to make the background color darker but not completely black */
+  color: white;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.ourservices > h1,
+.ourservices > p {
+  width: 30%;
+  text-align: justify;
+  margin-bottom: 20px;
+  text-justify: auto;
+}
+.ourservices p {
+  font-weight: 300;
+  width: 380px; 
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff; 
+  margin-bottom: 20px; 
+}
+.contact-us {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-us h2 {
+  font-size: 2.5rem; /* Increased font size for better visibility */
+  text-align: center;
+  font-weight: 700; /* Added to increase the prominence of the heading */
+  margin-bottom: 20px; /* Added more space for better visual separation */
+  color: #003060; /* Changed to a darker blue color to improve readability */
+}
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 1.1rem;
+}
+
